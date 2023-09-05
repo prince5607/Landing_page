@@ -1,0 +1,99 @@
+@media screen and (max-width:965px) {
+    nav {
+        height: 138px;
+        width: 100vw;
+        display: grid;
+        color: white;
+        justify-content: space-around;
+        align-items: center;
+        font-family: sans-serif;
+      }
+      
+
+}
+@media screen and (max-width:500px){
+    nav {
+        height: 138px;
+        width: 46vh;
+        display: inline-grid;
+        color: white;
+        justify-content: space-around;
+        align-items: center;
+        font-family: sans-serif;
+      }
+      .logo {
+        font-size: 3em;
+        letter-spacing: 4px;
+        font-family: 'Dancing Script', cursive;
+        font-family: 'Great Vibes', cursive;
+        font-family: 'Shadows Into Light', cursive;
+        display: inline-grid;
+        text-align: center;
+      }
+      nav ul {
+        display: flex;
+        list-style: none;
+        height: 70px;
+        width: 373px;
+        align-items: first baseline;
+        margin-top: 29px;
+      }
+      nav ul li a {
+        text-decoration: none;
+        color: white;
+        font-size: 13px;
+        padding: 12px 3px;
+        margin: 0px 7px;
+        position: relative;
+      }
+      .register {
+        padding: 8px 0px;
+        background-color: black;
+        border-radius: 10%;
+        transition: 0.4s;
+        height: 20px;
+        width: 120px;
+        margin-left: 242px;
+        text-align: center;
+      }
+      .register a {
+        text-decoration: none;
+        color: white;
+        font-size: 15px;
+        letter-spacing: 3px;
+      }
+      .copy {
+        display: flex;
+        align-items: center;
+        color: white;
+        height: 59px;
+        width: 160px;
+        margin: 0px 0px 0px 0px;
+        font-size: 10px;
+      }
+      .container2 h3 {
+        font-size: 14px;
+        font-family: sans-serif;
+        color: white;
+        margin: 0px 0px 0px 0px;
+        font-size: 12px;
+      }
+      .logo1{
+        display: flex;
+        height: 20px;
+        width: 20px;
+       margin-left: 0px;
+      
+      }
+      .logo1 img{
+        height: 20px;
+        width: 20px;
+      }
+      .container2 {
+        height: 6vh;
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+      }
+}
